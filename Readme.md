@@ -1,9 +1,9 @@
 ### Konten README:
 
 ````markdown
-# Automasi Excel - Untuk Dini Sayang 💖
+# Automasi Excel - Untuk Dini
 
-Program ini dirancang untuk membantu Dini Sayang agar lebih santai dan mendapatkan waktu ekstra untuk peluk cium aku. Dengan program ini, kamu hanya perlu menjalankan beberapa langkah sederhana untuk menghasilkan laporan otomatis. 😊
+Program ini dirancang untuk bantuin Dini lebih santai dan janji pelq cyum. Dengan program ini, kamu cuma perlu jalanin beberapa langkah sederhana untuk menghasilkan laporan otomatis. 😊
 
 ---
 
@@ -22,9 +22,18 @@ Setelah program selesai, akan muncul pesan seperti ini:
 
 2. **Tambahkan footer pada file Excel:**
    Jalankan perintah berikut setelah langkah pertama selesai:
+
    ```bash
    python tambahinFooter.py
    ```
+
+3. \*\*Laporan Selesai`
+   Kalau semua laporan udah selesai kamu bisa ntar muncul pesan
+
+   `Semua footer udah ada di excell.`
+   `Sekarang kamu udah bisa leha-lehaa Dini sayaaaaang.`
+
+   Folder Laporan bisa kamu liat di folder "Output_With_Footer"
 
 ---
 
@@ -87,5 +96,7 @@ Pastikan struktur foldernya sesuai seperti ini:
         │   └── Readme.md
         ```
 
-Semoga membantu dan selalu sukses ya, Dini Sayang! Kalau ada masalah, jangan ragu untuk kasih tahu aku. Aku siap bantu. 💕
+Semoga membantu dan selalu sukses ya Dini......
+Kalau ada masalah, jangan ragu untuk kasih tahu aku. Ane bantuin sebisanya
+
 # automation-BA-Perwakilan-BLT-POS-Mbo-2024

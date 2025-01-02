@@ -4,6 +4,16 @@ from openpyxl.styles import Alignment, Font, Border, Side
 import os
 
 
+def process_nomor_cekpos(value):
+    if isinstance(value, str):  # Pastikan nilai adalah string
+        # Hapus 'BLG' di awal dan 'C' di akhir
+        if value.startswith("BLG"):
+            value = value[3:]  # Hapus 'BLG'
+        if value.endswith("C"):
+            value = value[:-1]  # Hapus 'C'
+    return value
+
+
 # Fungsi untuk menggantikan placeholder dalam file Excel
 def fill_excel_from_csv(csv_file, excel_template, output_file):
     try:
@@ -41,7 +51,10 @@ def fill_excel_from_csv(csv_file, excel_template, output_file):
                 (2, row.get("No_Urut_BAST", "")),  # Kolom B
                 (3, row.get("Nama Penerima", "")),  # Kolom C
                 (4, row.get("Nama Pengganti", "")),  # Kolom D
-                (5, row.get("Nomor Cekpos", "")),  # Kolom E
+                (
+                    5,
+                    process_nomor_cekpos(row.get("Nomor Cekpos", "")),
+                ),  # Kolom E - Proses Nomor Cekpos
                 (6, f"'{row.get('NIK Pengganti', '')}"),  # Kolom F sebagai teks
                 (7, row.get("Kelurahan", "")),  # Kolom G
                 (8, row.get("Kelurahan", "")),  # Kolom H

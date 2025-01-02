@@ -7,6 +7,8 @@ Program ini dirancang untuk bantuin Dini lebih santai dan janji pelq cyum. Denga
 
 ---
 
+**Sebelumnya kamu harus masukin semua file csv ke dalam 👉 : env/Folder_Perwakilan_CSV**
+
 ## Cara Menggunakan Program
 
 1. **Jalankan program pertama untuk memproses data CSV:**

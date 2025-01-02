@@ -119,7 +119,7 @@ def process_all_csv_in_folder(input_folder, excel_template, output_folder):
 
 if __name__ == "__main__":
     # Input folder CSV, template Excel, dan folder output utama
-    input_folder = os.path.join(os.getcwd(), "env", "Perwakilan JP Des")
+    input_folder = os.path.join(os.getcwd(), "env", "Folder_Perwakilan_CSV")
     excel_template = os.path.join(os.getcwd(), "env", "BA_Perwakilan_Template.xlsx")
     output_folder = os.path.join(os.getcwd(), "Output")
 
